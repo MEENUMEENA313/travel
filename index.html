@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Travel Trails</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://clipart-library.com/images/qcBobErbi.jpg" class="d-block w-100" alt="Travel Image 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Discover the Globe</h5>
+                <p>Discover new places with Travel Trails.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1723852800&semt=ais_hybrid" class="d-block w-100" alt="Travel Image 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Adventure Awaits</h5>
+                <p>Find your next adventure with Us.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://youmatter.world/app/uploads/2019/11/travel-world.jpg" class="d-block w-100" alt="Travel Image 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Cultural Travels</h5>
+                <p>Experience the diverse culture and traditions.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Featured Posts Section -->
+<section id="featured-posts" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mb-5">
+                <h2>Trending Travel Posts</h2>
+                <p>Latest adventures and stories</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.celebritycruises.com/blog/content/uploads/2022/01/most-beautiful-mountains-in-the-world-kirkjufell-iceland-1024x580.jpg" class="card-img-top" alt="Post 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Mountain Quest</h5>
+                        <p class="card-text">Explore the rugged beauty of mountain landscapes.</p>
+                        <a href="post.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://mediaim.expedia.com/destination/1/1856680ff2fc3aef0d6cd8d0cff48e35.jpg" class="card-img-top" alt="Post 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Cultural Exploration</h5>
+                        <p class="card-text">Immerse yourself in the traditions of other cultures.</p>
+                        <a href="post.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.contiki.com/six-two/app/uploads/2023/01/food-1050813-e1476283676929.jpg" class="card-img-top" alt="Post 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Culinary Journeys</h5>
+                        <p class="card-text">Taste the world, one dish at a time.</p>
+                        <a href="post.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!-- Blog Header -->
+<header class="blog-header py-5">
+    <div class="container text-center">
+        <h1 class="display-4">Travel Trails</h1>
+        <p class="lead">Your Portal to Thrilling Adventures and Travel Insights.</p>
+    </div>
+</header>
+
+<!-- Blog Posts Section -->
+<section id="blog-posts" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mb-4">
+                <h2>Our Latest Posts</h2>
+                <p class="text-muted">Uncover tales, advice, and places to ignite your travel passion.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://www.muchbetteradventures.com/magazine/content/images/2019/07/10084311/Grindelwald-First-First-Flieger-2-2.jpg" class="card-img-top" alt="Adventure">
+                    <div class="card-body">
+                        <h5 class="card-title">Adventure in the Alps</h5>
+                        <p class="card-text">Experience the thrill of mountain adventures in the heart of the Alps.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">By Jack Roe</small>
+                            <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://ampersandtravel.files.wordpress.com/2013/09/shwedagon-pagoda.jpg" class="card-img-top" alt="Cultural Exploration">
+                    <div class="card-body">
+                        <h5 class="card-title">Treasures of Asian Culture</h5>
+                        <p class="card-text">Dive into the rich cultural heritage of Asia and discover its hidden gems.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">By John Smith</small>
+                            <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://media.istockphoto.com/id/1388199817/photo/tourist-couple-at-the-market.jpg?s=612x612&w=0&k=20&c=PXj675RnpzQf0tMelaPdUC8jW6yOXdSNk7VP0MpDHcQ=" class="card-img-top" alt="Food & Drink">
+                    <div class="card-body">
+                        <h5 class="card-title">A Culinary Journey</h5>
+                        <p class="card-text">Explore the flavors of the world with our guide to global cuisine.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">By Jennie John</small>
+                            <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+<!-- Blog Post Header -->
+<header class="post-header py-5 text-white text-center">
+    <div class="container">
+        <h1 class="display-4">Adventure in the Alps</h1>
+        <p class="lead">By Jack Roe | April 26, 2024</p>
+    </div>
+</header>
+
+<!-- Blog Post Content -->
+<section id="post-content" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <img src="https://i.natgeofe.com/n/3c172f7d-1593-49cc-9c5e-c3c9d4ef02d2/WEBcoverstory1.jpg" class="img-fluid mb-4" alt="Adventure in the Alps">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, lacus eget luctus sodales, neque est cursus eros, ut vehicula sapien est a magna. Aliquam erat volutpat. Vestibulum nec eros nec magna suscipit facilisis.
+                Donec at ligula nec justo auctor ultricies. Phasellus a eros ut nisi malesuada scelerisque a et eros. Nam accumsan auctor neque, id tincidunt nunc pulvinar nec. Nulla vitae erat in leo fringilla luctus. Duis vitae augue id lorem aliquam egestas.
+                Quisque fermentum, lacus et tincidunt ullamcorper, felis quam ultricies nunc, vel lacinia magna felis et ex. In vel volutpat dui, sit amet hendrerit est. Sed porttitor massa id nisi tristique, a facilisis magna vehicula.
+                Cras dictum ligula sit amet lectus vehicula, sit amet ultricies dui ultrices. Integer quis magna turpis. Proin sed orci nec arcu tincidunt aliquam. Aenean vehicula odio at convallis dapibus.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Author Bio Section -->
+<section id="author-bio" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto d-flex align-items-center">
+                <img src="https://img.freepik.com/premium-photo/happy-traveler-taking-selfie-sunset-mountains-joyful-hiking-adventure-captured-vibrant-photo-outdoor-lifestyle-freedom-nature-exploration-theme-ai_372197-25196.jpg" class="img-fluid rounded-circle me-3" alt="Author" width="100">
+                <div>
+                    <h5>About the Author: Jack Roe</h5>
+                    <p>Jack Roe is a seasoned traveler and blogger with a passion for exploring the world's most remote and beautiful places. Follow him on his adventures and discover the wonders of the world through his eyes.</p>
+                    <a href="#" class="btn btn-outline-secondary btn-sm">Follow on Twitter</a>
+                    <a href="#" class="btn btn-outline-secondary btn-sm">View Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Related Posts Section -->
+<!-- Related Posts Section -->
+<section id="related-posts" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mb-4">
+                <h2>Related Posts</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://travelnotes.org/Asia/images/India.jpg" class="card-img-top" alt="Related Post 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cultural Wonders of Asia</h5>
+                        <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://img.freepik.com/free-photo/young-person-enjoying-meal_23-2151525800.jpg" class="card-img-top" alt="Related Post 2">
+                    <div class="card-body">
+                        <h5 class="card-title">A Culinary Journey</h5>
+                        <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://img.freepik.com/premium-photo/african-safari-car-with-tourists-giraffes-sunset-ai-generated_538213-11537.jpg" class="card-img-top" alt="Related Post 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Safari in Africa</h5>
+                        <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Destinations Section -->
+<section id="destinations" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mb-5">
+                <h2>Explore Destinations</h2>
+                <p>Explore Our Highlighted Travel Destinations and Uncover Your Next Adventure.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card destination-card shadow-sm">
+                    <img src="https://www.worldbeachguide.com/photos/large/lanikai-beach-hawaii.jpg" height="60px" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tropical Beaches</h5>
+                        <p class="card-text">Relax on the most beautiful tropical beaches in the world.</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#beaches-details" aria-expanded="false" aria-controls="beaches-details">Read More</button>
+                        <div class="collapse mt-3" id="beaches-details">
+                            <p>Visit our blog posts on the best tropical beaches, including hidden gems and popular destinations.</p>
+                            <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card destination-card shadow-sm">
+                    <img src="https://images.ctfassets.net/n2ifzifcqscw/pryifGHtrwetGCUP26g2M/e22357d0e544ab982773b2859fa3e8eb/mountain-getaways-hero-image.jpeg" class="card-img-top" alt="Destination 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mountain Getaways</h5>
+                        <p class="card-text">Escape to the serenity of majestic mountains.</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#mountains-details" aria-expanded="false" aria-controls="mountains-details">Read More</button>
+                        <div class="collapse mt-3" id="mountains-details">
+                            <p>Explore our guides to mountain adventures, hiking trails, and cozy retreats.</p>
+                            <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card destination-card shadow-sm">
+                    <img src="https://i.insider.com/58cff3a17d1fb21f008b4797?width=1136&format=jpeg"  class="card-img-top" alt="Destination 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Cultural Cities</h5>
+                        <p class="card-text">Immerse yourself in the rich history and culture of vibrant cities.</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#cities-details" aria-expanded="false" aria-controls="cities-details">Read More</button>
+                        <div class="collapse mt-3" id="cities-details">
+                            <p>Check out our posts on the best cultural experiences, museums, and city tours.</p>
+                            <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card destination-card shadow-sm">
+                    <img src="https://www.tourism-of-india.com/blog/wp-content/uploads/2017/09/corbett-national-park.jpg" class="card-img-top" alt="Destination 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Wildlife Safaris</h5>
+                        <p class="card-text">Experience the thrill of wildlife in its natural habitat.</p>
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#safaris-details" aria-expanded="false" aria-controls="safaris-details">Read More</button>
+                        <div class="collapse mt-3" id="safaris-details">
+                            <p>Discover our top safari destinations and tips for an unforgettable adventure.</p>
+                            <a href="post.html" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Search Feature Section -->
+<section id="search" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mb-5">
+                <h2>Search Our Blog</h2>
+                <p>Find the latest travel posts by searching for your favorite destinations or topics.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <form action="search-results.html" method="get" class="d-flex">
+                    <input type="text" name="q" class="form-control me-2" placeholder="Search for blog posts..." aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mb-5">
+                <h2>About Us</h2>
+                <p>Discover our journey, mission, and the passionate team dedicated to bringing you the best travel experiences.</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Mission Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQLYYkMLwZJJGWj4inr-XbVqtMe5FgecFuw&s" class="card-img-top" alt="Our Mission">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Mission</h5>
+                        <p class="card-text">At Travel Blog, we strive to inspire wanderlust and curiosity through detailed travel guides, personal stories, and practical tips. Our goal is to make travel accessible and enjoyable for everyone.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card border-0 shadow-lg">
+                    <img src="https://www.hubspot.com/hs-fs/hubfs/meet-the-team.jpg?width=595&height=400&name=meet-the-team.jpg" class="card-img-top" alt="Meet the Team">
+                    <div class="card-body">
+                        <h5 class="card-title">Meet Our Team</h5>
+                        <p class="card-text">Our team consists of avid travelers, photographers, and writers who are dedicated to sharing their adventures and insights. We are a diverse group united by our passion for exploring the world.</p>
+                        <a href="team.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Additional Information Card -->
+        <div class="row">
+            <div class="col text-center">
+                <div class="card border-0 shadow-lg mx-auto" style="max-width: 800px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Values</h5>
+                        <p class="card-text">We believe in responsible travel, cultural appreciation, and sustainability. Our blog promotes respectful interactions with local communities and encourages eco-friendly practices.</p>
+                        <a href="values.html" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mb-5">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you! Reach out with any questions, feedback, or partnership inquiries.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <form action="send-message.php" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="contact-info">
+                    <h5>Contact Information</h5>
+                    <p><i class="bi bi-telephone"></i> Phone: +1 234 567 890</p>
+                    <p><i class="bi bi-envelope"></i> Email: contact@TravelTrails.com</p>
+                    <p><i class="bi bi-geo-alt"></i> Address: 123 Travel Street, ABCD City, 12345</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="btn btn-outline-primary me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-outline-primary me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-primary"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Author Bio Section -->
+<section id="author-bio" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <img src="https://static.vecteezy.com/system/resources/previews/026/846/055/large_2x/young-man-tourist-in-sunglasses-and-hat-taking-selfie-in-nature-by-the-lake-in-mountains-made-with-generative-ai-photo.jpg" class="img-fluid rounded-circle" alt="Author Name">
+            </div>
+            <div class="col-md-8">
+                <h3>Author Name</h3>
+                <p class="lead">Author's short bio goes here. This section provides information about the author's background, expertise, and interests. It can also include a brief personal story or notable achievements.</p>
+                <div class="social-links mt-3">
+                    <a href="https://twitter.com/author" class="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-twitter"></i> Twitter
+                    </a>
+                    <a href="https://linkedin.com/in/author" class="btn btn-outline-primary me-2" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://instagram.com/author" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <!-- Footer Links -->
+            <div class="col-md-4 mb-3">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="blog.html" class="text-white text-decoration-none">Blog</a></li>
+                    <li><a href="destinations.html" class="text-white text-decoration-none">Destinations</a></li>
+                    <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+                    <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- About Section -->
+            <div class="col-md-4 mb-3">
+                <h5>About Us</h5>
+                <p>Discover new places, cultures, and adventures with our travel guides and stories. Join us as we explore the world and share our experiences.</p>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="col-md-4 mb-3">
+                <h5>Follow Us</h5>
+                <div class="social-links">
+                    <a href="https://twitter.com/yourprofile" class="text-white me-2" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-twitter"></i> Twitter
+                    </a>
+                    <a href="https://facebook.com/yourprofile" class="text-white me-2" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-facebook"></i> Facebook
+                    </a>
+                    <a href="https://instagram.com/yourprofile" class="text-white" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="text-center mt-4">
+            <p class="mb-0">&copy;All Rights Reserved under @TravelTrails</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Offcanvas Button -->
+<button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+    Menu
+</button>
+
+<!-- Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasSidebarLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="destinations.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

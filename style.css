@@ -1,0 +1,613 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Carousel Styles */
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+/* Featured Posts Section */
+#featured-posts {
+    background-color: #ffffff;
+    padding: 4rem 0;
+}
+
+#featured-posts h2 {
+    font-size: 2.5rem;
+    color: #01060b;
+    margin-bottom: 1rem;
+}
+
+#featured-posts p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-top: 1rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Blog Header */
+.blog-header {
+    background: linear-gradient(to right, rgba(0, 123, 255, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg?cs=srgb&dl=pexels-freestockpro-3278215.jpg&fm=jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.blog-header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-header p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/* Blog Posts Section */
+#blog-posts {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+#blog-posts h2 {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+#blog-posts p {
+    font-size: 1.125rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.card .btn {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Buttons */
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Blog Post Header */
+.post-header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://media.istockphoto.com/id/1369171053/photo/group-of-sporty-people-walks-in-mountains-at-sunset-with-backpacks.jpg?s=612x612&w=0&k=20&c=ajQuWt2YRWd0FPaCpdKz2Tt3WX2NI1ddeZjf8HIxlwU=') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.post-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.post-header p {
+    font-size: 1.25rem;
+}
+
+/* Blog Post Content */
+#post-content {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+#post-content img {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#post-content p{
+    text-align: justify;
+}
+
+/* Author Bio Section */
+#author-bio {
+    background-color: #e9ecef;
+    padding: 3rem 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#author-bio img {
+    border-radius: 50%;
+}
+
+#author-bio h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#author-bio p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Related Posts Section */
+/* Related Posts Section */
+#related-posts {
+    background-color: #ffffff;
+    padding: 3rem 0;
+}
+
+#related-posts h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #343a40;
+}
+
+#related-posts .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#related-posts .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#related-posts .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+#related-posts .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#related-posts .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Destinations Section */
+#destinations {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+#destinations h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #343a40;
+}
+
+#destinations .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+}
+
+#destinations .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#destinations .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#destinations .card-text {
+    color: #6c757d;
+}
+
+#destinations .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#destinations .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+#destinations .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+#destinations .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+/* Search Feature Section */
+#search {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+#search h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+#search p {
+    font-size: 1.125rem;
+    color: #6c757d;
+}
+
+#search form {
+    display: flex;
+    justify-content: center;
+}
+
+#search .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    flex: 1;
+}
+
+#search .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.25rem;
+}
+
+#search .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+/* Enhanced About Section */
+#about {
+    background-color: #ffffff;
+    padding: 3rem 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+#about p {
+    font-size: 1.125rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+#about .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 0.375rem;
+}
+
+#about .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+#about .card-img-top {
+    border-radius: 0.375rem 0.375rem 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+#about .card-body {
+    padding: 2rem;
+}
+
+#about .card-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+#about .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+#about .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.25rem;
+}
+
+#about .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+#about .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    border-radius: 0.25rem;
+}
+
+#about .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+#contact p {
+    font-size: 1.125rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+#contact .form-label {
+    font-weight: 500;
+}
+
+#contact .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1.25rem;
+}
+
+#contact .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.25rem;
+}
+
+#contact .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.contact-info h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.contact-info i {
+    margin-right: 0.5rem;
+}
+
+.social-links a {
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+.social-links .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    border-radius: 0.25rem;
+}
+
+.social-links .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+/* Author Bio Section */
+#author-bio {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+#author-bio img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #007bff;
+}
+
+#author-bio h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #343a40;
+}
+
+#author-bio .lead {
+    font-size: 1.125rem;
+    color: #6c757d;
+}
+
+#author-bio .social-links a {
+    font-size: 1rem;
+    color: #007bff;
+    border-radius: 0.25rem;
+}
+
+#author-bio .social-links a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#author-bio .social-links i {
+    margin-right: 0.5rem;
+}
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-links a {
+    font-size: 1.25rem;
+}
+
+footer .social-links a i {
+    margin-right: 0.5rem;
+}
+
+footer .text-center {
+    font-size: 0.875rem;
+}
+/* Offcanvas Sidebar */
+.offcanvas {
+    width: 250px; /* Adjust the width as needed */
+    background-color: #f8f9fa; /* Background color */
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.offcanvas-body {
+    padding: 1rem;
+}
+
+.offcanvas .nav-link {
+    font-size: 1.125rem; /* Font size for links */
+    color: #343a40; /* Text color */
+    padding: 0.75rem 1rem; /* Padding for links */
+}
+
+.offcanvas .nav-link:hover {
+    color: #007bff; /* Color on hover */
+    background-color: #e9ecef; /* Background color on hover */
+}
